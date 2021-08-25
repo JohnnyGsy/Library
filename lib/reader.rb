@@ -5,7 +5,7 @@ class Reader
   include Validation
   attr_reader :name, :email, :city, :street, :house
 
-  def initialize(name, email, address = {})
+  def initialize(name, email, address)
     @name = name
     @email = email
     @city = address[:city]
