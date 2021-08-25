@@ -10,7 +10,7 @@ class Author
     @biography = biography
   end
 
-  def validate(name)
+  def validate
     validate_class(name, String)
     validate_empty(name)
   end

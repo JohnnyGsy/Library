@@ -3,7 +3,7 @@
 require './modules/validation'
 class Reader
   include Validation
-  attr_accessor :name, :email, :city, :street, :house
+  attr_reader :name, :email, :city, :street, :house
 
   def initialize(name, email, address = {})
     @name = name
@@ -11,11 +11,11 @@ class Reader
     @city = address[:city]
     @street = address[:street]
     @house = address[:house]
-    validate(name, email, address)
+    validate
   end
 
-  def validate(name, email, address)
-    [name, email, address[:city], address[:street]].each do |item|
+  def validate
+    [name, email, city, street].each do |item|
       validate_class(item, String)
       validate_empty(item)
     end

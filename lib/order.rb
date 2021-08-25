@@ -9,10 +9,10 @@ class Order
     @book = book
     @reader = reader
     @date = date
-    validate(book, reader, date)
+    validate
   end
 
-  def validate(book, reader, date)
+  def validate
     validate_class(book, Book)
     validate_class(reader, Reader)
     validate_class(date, Date)

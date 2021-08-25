@@ -8,10 +8,10 @@ class Book
   def initialize(title, author)
     @title = title
     @author = author
-    validate(title, author)
+    validate
   end
 
-  def validate(title, author)
+  def validate
     validate_class(author, Author)
     validate_empty(title)
     validate_class(title, String)
