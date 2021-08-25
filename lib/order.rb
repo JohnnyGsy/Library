@@ -3,7 +3,7 @@
 require './modules/validation'
 class Order
   include Validation
-  attr_accessor :book, :reader, :date
+  attr_reader :book, :reader, :date
 
   def initialize(book, reader, date = Date.today)
     @book = book

@@ -1,13 +1,23 @@
-
 Style/Documentation:
-  Enabled: false
-
-Metrics/MethodLength:
-  Enabled: false
-
-Metrics/AbcSize:
-  Enabled: false
+  Exclude:
+    - 'lib/library.rb'
+    - 'main.rb'
+    - 'lib/author.rb'
+    - 'lib/book.rb'
+    - 'lib/order.rb'
+    - 'lib/reader.rb'
+    - 'modules/save_load.rb'
+    - 'modules/validation.rb'
 
 Metrics/ParameterLists:
-  Enabled: false
+  Exclude:
+    - 'lib/library.rb'
 
+Metrics/MethodLength: 
+  Exclude:
+    - 'main.rb'  
+    - 'seed.rb'
+
+Metrics/AbcSize:
+  Exclude:
+    - 'seed.rb'

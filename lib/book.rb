@@ -3,7 +3,7 @@
 require './modules/validation'
 class Book
   include Validation
-  attr_accessor :title, :author
+  attr_reader :title, :author
 
   def initialize(title, author)
     @title = title
