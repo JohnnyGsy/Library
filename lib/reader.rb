@@ -19,7 +19,7 @@ class Reader
       validate_class(item, String)
       validate_empty(item)
     end
-    validate_class(address[:house], Integer)
-    validate_positive(address[:house])
+    validate_class(house, Integer)
+    validate_positive(house)
   end
 end
