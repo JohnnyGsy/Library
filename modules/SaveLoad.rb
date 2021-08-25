@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require './config'
-module Save_Load
+module SaveLoad
   def save
     File.open(File.join('data.yaml'), 'w') { |file| file.write(to_yaml) }
   end

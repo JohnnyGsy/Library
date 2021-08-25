@@ -18,9 +18,9 @@ def seed
   8.times do
     readers << Reader.new(Faker::Name.first_name,
                           Faker::Internet.unique.email,
-                          Faker::Address.city,
-                          Faker::Address.street_name,
-                          rand(1..100))
+                          { city: Faker::Address.city,
+                            street: Faker::Address.street_name,
+                            house: rand(1..100) })
   end
   orders = []
   9.times do

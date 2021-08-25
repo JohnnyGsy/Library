@@ -1,0 +1,239 @@
+--- !ruby/object:Library
+authors:
+- &9 !ruby/object:Author
+  name: Hortensia Ryan
+  biography: Temporibus unde ea. Ut commodi reprehenderit. Deserunt est tempora.
+- &7 !ruby/object:Author
+  name: Cesar Bogisich
+  biography: Quasi aut occaecati. Blanditiis nisi magni. Quae impedit aliquam.
+- &8 !ruby/object:Author
+  name: Herb Reinger
+  biography: Ex molestiae non. In quia earum. Reprehenderit dolorem voluptatem.
+- &6 !ruby/object:Author
+  name: Pres. Maximo Rolfson
+  biography: Id dolore amet. Provident ab distinctio. Tempore laborum sed.
+- &2 !ruby/object:Author
+  name: Antonetta Erdman
+  biography: Alias optio distinctio. Optio quia eius. Fugit consequatur vel.
+- &4 !ruby/object:Author
+  name: Jaime Dibbert
+  biography: Id ut ratione. Quisquam dicta nemo. Assumenda temporibus et.
+- &3 !ruby/object:Author
+  name: Allen Connelly
+  biography: Velit et sit. Dolorem sed ipsum. Assumenda qui iusto.
+- &10 !ruby/object:Author
+  name: Chong Renner
+  biography: Sit in neque. Ipsam laborum odio. Eos reprehenderit voluptas.
+- &1 !ruby/object:Author
+  name: Bobby Mertz
+  biography: Est consequatur aut. Enim a laboriosam. Ea minima debitis.
+- &5 !ruby/object:Author
+  name: Chang Schaden
+  biography: Non iste architecto. Consequatur dolorem officiis. Aut nisi et.
+books:
+- !ruby/object:Book
+  title: Absalom, Absalom!
+  author: *1
+- !ruby/object:Book
+  title: Down to a Sunless Sea
+  author: *2
+- &17 !ruby/object:Book
+  title: The Man Within
+  author: *3
+- !ruby/object:Book
+  title: The Little Foxes
+  author: *4
+- !ruby/object:Book
+  title: The Millstone
+  author: *5
+- !ruby/object:Book
+  title: The Grapes of Wrath
+  author: *6
+- &11 !ruby/object:Book
+  title: All Passion Spent
+  author: *1
+- &13 !ruby/object:Book
+  title: All the King's Men
+  author: *2
+- &19 !ruby/object:Book
+  title: The Parliament of Man
+  author: *7
+- !ruby/object:Book
+  title: No Country for Old Men
+  author: *7
+- !ruby/object:Book
+  title: The Curious Incident of the Dog in the Night-Time
+  author: *2
+- !ruby/object:Book
+  title: His Dark Materials
+  author: *8
+- !ruby/object:Book
+  title: Antic Hay
+  author: *6
+- !ruby/object:Book
+  title: The Daffodil Sky
+  author: *9
+- &21 !ruby/object:Book
+  title: The Widening Gyre
+  author: *1
+- !ruby/object:Book
+  title: A Time to Kill
+  author: *1
+- &22 !ruby/object:Book
+  title: Gone with the Wind
+  author: *7
+- !ruby/object:Book
+  title: The Way of All Flesh
+  author: *7
+- &24 !ruby/object:Book
+  title: The House of Mirth
+  author: *3
+- !ruby/object:Book
+  title: The Glory and the Dream
+  author: *6
+- &15 !ruby/object:Book
+  title: Endless Night
+  author: *5
+- !ruby/object:Book
+  title: Specimen Days
+  author: *4
+- !ruby/object:Book
+  title: No Highway
+  author: *9
+- !ruby/object:Book
+  title: Tiger! Tiger!
+  author: *6
+- !ruby/object:Book
+  title: Tirra Lirra by the River
+  author: *4
+- !ruby/object:Book
+  title: Recalled to Life
+  author: *4
+- !ruby/object:Book
+  title: Everything is Illuminated
+  author: *5
+- !ruby/object:Book
+  title: Alone on a Wide, Wide Sea
+  author: *7
+- !ruby/object:Book
+  title: What's Become of Waring
+  author: *6
+- !ruby/object:Book
+  title: Number the Stars
+  author: *1
+- !ruby/object:Book
+  title: Ego Dominus Tuus
+  author: *6
+- !ruby/object:Book
+  title: The Torment of Others
+  author: *3
+- !ruby/object:Book
+  title: Cover Her Face
+  author: *5
+- !ruby/object:Book
+  title: The Lathe of Heaven
+  author: *5
+- !ruby/object:Book
+  title: Blithe Spirit
+  author: *8
+- &16 !ruby/object:Book
+  title: Consider the Lilies
+  author: *2
+- !ruby/object:Book
+  title: A Farewell to Arms
+  author: *3
+- !ruby/object:Book
+  title: Look Homeward, Angel
+  author: *10
+- !ruby/object:Book
+  title: Edna O'Brien
+  author: *5
+- !ruby/object:Book
+  title: When the Green Woods Laugh
+  author: *2
+readers:
+- &20 !ruby/object:Reader
+  name: Fidela
+  email: winter@kovacek-mayert.com
+  city: Ozieshire
+  street: Gregorio Prairie
+  house: 85
+- &18 !ruby/object:Reader
+  name: Sherlene
+  email: michel@wisoky-corwin.net
+  city: Mitchellstad
+  street: Albert Passage
+  house: 78
+- &25 !ruby/object:Reader
+  name: Charlette
+  email: lang@huels-crooks.com
+  city: Dionnafurt
+  street: Gislason Road
+  house: 51
+- &12 !ruby/object:Reader
+  name: Bruce
+  email: sherri.thiel@kulas.net
+  city: Jonathanview
+  street: Dallas Burg
+  house: 86
+- !ruby/object:Reader
+  name: Tommye
+  email: sidney@flatley-predovic.net
+  city: Lake Jeffryview
+  street: Yundt Lane
+  house: 67
+- &14 !ruby/object:Reader
+  name: Thanh
+  email: granville@glover.io
+  city: South Angelicland
+  street: Billie Trail
+  house: 78
+- &23 !ruby/object:Reader
+  name: Aline
+  email: lorelei.torp@koss.net
+  city: Prosaccostad
+  street: Eddy Curve
+  house: 91
+- !ruby/object:Reader
+  name: Dominique
+  email: juliana@marquardt.com
+  city: North Kasiebury
+  street: Abbott Rapid
+  house: 72
+orders:
+- !ruby/object:Order
+  book: *11
+  reader: *12
+  date: 2021-08-25
+- !ruby/object:Order
+  book: *13
+  reader: *14
+  date: 2021-08-25
+- !ruby/object:Order
+  book: *15
+  reader: *14
+  date: 2021-08-25
+- !ruby/object:Order
+  book: *16
+  reader: *14
+  date: 2021-08-25
+- !ruby/object:Order
+  book: *17
+  reader: *18
+  date: 2021-08-25
+- !ruby/object:Order
+  book: *19
+  reader: *20
+  date: 2021-08-25
+- !ruby/object:Order
+  book: *21
+  reader: *14
+  date: 2021-08-25
+- !ruby/object:Order
+  book: *22
+  reader: *23
+  date: 2021-08-25
+- !ruby/object:Order
+  book: *24
+  reader: *25
+  date: 2021-08-25
